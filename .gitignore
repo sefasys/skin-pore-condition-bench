@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+
+# Restricted/local data
+data/
+datasets/
+new_datasets/
+*.parquet
+
+# Training artifacts and model weights
+artifacts/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Caches and archives
+preprocessing-cache/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local experiment exports
+local-results/
+results/generated/
+wandb/
+mlruns/
+
+# Colab/runtime files
+.config/
+drive/

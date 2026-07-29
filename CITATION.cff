@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the original Zenodo dataset."
+title: "PoreCondition-Bench: A Reproducible Deep Learning Benchmark for Facial Pore-Condition Preprocessing"
+type: software
+version: 0.1.0
+date-released: 2026-07-30
+authors:
+  - name: "PoreCondition-Bench contributors"
+repository-code: "https://github.com/YOUR_USERNAME/porecondition-bench"
+license: MIT
+keywords:
+  - deep learning
+  - computer vision
+  - pore condition
+  - preprocessing
+  - ConvNeXt
+references:
+  - type: dataset
+    title: "Dataset used to train a Convolutional Neural Network dedicated to skin pore detection and classification"
+    authors:
+      - family-names: "Vasić"
+        given-names: "Čedomir"
+    year: 2023
+    doi: "10.5281/zenodo.8228942"

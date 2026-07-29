@@ -1,0 +1,4 @@
+method,images,created_this_run,reused_this_run,method_elapsed_seconds,size_megabytes,lossless_png_verified,combined_cache_wall_seconds
+clahe,2225,2225,0,74.71664276400008,247.21758460998535,True,504.9452489249999
+retinex,2225,2225,0,375.49530572000003,244.96255683898926,True,504.9452489249999
+adaptive_gamma,2225,2225,0,53.75250364800013,235.50400924682617,True,504.9452489249999

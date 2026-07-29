@@ -1,0 +1,25 @@
+{
+  "method": "retinex",
+  "image_size": 224,
+  "images": 2225,
+  "manifest": "artifacts/data/manifest.csv",
+  "manifest_sha256": "75fe101e2d8b5eb76f6d6d8b41f3f4e18e538d79918ff3538cf54c2fa9f2be8f",
+  "dataset_root": "data/pore_data_set_224",
+  "parameters": {
+    "clahe_clip_limit": 0.01,
+    "clahe_kernel_size": 28,
+    "retinex_sigmas": [
+      15.0,
+      60.0,
+      180.0
+    ],
+    "retinex_low_percentile": 1.0,
+    "retinex_high_percentile": 99.0,
+    "gamma_weight": 0.5
+  },
+  "format": "PNG",
+  "lossless_png_verified": true,
+  "created_this_run": 2225,
+  "reused_this_run": 0,
+  "elapsed_seconds": 375.49530572000003
+}

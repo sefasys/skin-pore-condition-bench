@@ -1,0 +1,31 @@
+{
+  "bundle_sha256": "f7e71c0e41ed885de69341ab2a9848d8453b5c9067407f8d6e7697eb190869e7",
+  "torch_version": "2.11.0+cu128",
+  "torchvision_version": "0.26.0+cu128",
+  "convnext_weights_enum": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "methods": [
+    "raw",
+    "clahe",
+    "retinex",
+    "adaptive_gamma"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "frozen_configuration": {
+    "architecture": "convnext_tiny",
+    "class_weighting": "sqrt_balanced",
+    "label_smoothing": 0.05,
+    "selection_metric": "exact_accuracy",
+    "learning_rate": 0.0003,
+    "backbone_learning_rate": 3e-05,
+    "weight_decay": 0.0001,
+    "image_size": 224
+  },
+  "cache_root": "artifacts/preprocessing-cache",
+  "lossless_cache_required_for_enhanced_methods": true,
+  "test_evaluated": false
+}

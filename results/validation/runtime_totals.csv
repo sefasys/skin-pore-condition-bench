@@ -1,0 +1,2 @@
+cache_wall_seconds_this_notebook,training_elapsed_seconds_recorded,report_elapsed_seconds_this_notebook,epochs_completed_total,note
+504.9452489249999,1922.7266821861267,187.507077069999,250,Training elapsed time after a resumed session may exclude work completed in an earlier runtime.

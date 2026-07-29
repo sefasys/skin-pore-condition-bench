@@ -1,0 +1,27 @@
+{
+  "dataset_record": "https://doi.org/10.5281/zenodo.8228942",
+  "total_files": 3086,
+  "excluded_duplicates": 851,
+  "excluded_label_conflicts": 10,
+  "retained_images": 2225,
+  "split_counts": {
+    "train": 1559,
+    "validation": 331,
+    "test": 335
+  },
+  "retained_class_counts": {
+    "very_good": 427,
+    "good": 545,
+    "normal": 580,
+    "poor": 412,
+    "very_poor": 261
+  },
+  "split_seed": 42,
+  "perceptual_hash": {
+    "algorithm": "rotation-canonical 64-bit dHash",
+    "deduplication_distance": 0,
+    "maximum_split_group_hamming_distance": 2
+  },
+  "test_evaluated": false
+}
+

@@ -210,9 +210,16 @@ See [Ethics and limitations](docs/ETHICS.md) and
 ## Citation
 
 If you use this code, cite both this repository (after replacing the placeholder
-metadata in [`CITATION.cff`](CITATION.cff)) and the original Zenodo dataset.
+metadata in [`CITATION.cff`](CITATION.cff)) and the original dataset created by Cedomir Vasic for his research titled "Dataset used to train a Convolutional Neural Network dedicated to skin pore detection and classification".
 Complete the [release checklist](docs/RELEASE_CHECKLIST.md) before the first
-public push.
+public push. 
+
+This is Mr. Vasic's research: https://onlinelibrary.wiley.com/doi/10.1111/ajd.14200 
+
+## Dataset Link
+
+https://zenodo.org/records/8228942
+https://www.kaggle.com/datasets/sefasoysal/skin-pore-dataset
 
 ## License
 

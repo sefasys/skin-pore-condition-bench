@@ -16,6 +16,21 @@ training protocol.
 This is **not** a dry/oily/combination skin-type classifier and is not a
 clinical diagnostic system.
 
+## Preprocessing at a glance
+
+The same synthetic, non-participant skin texture is shown below before and
+after each deterministic preprocessing method used in the benchmark.
+
+![Raw RGB, CLAHE, multi-scale Retinex, and adaptive gamma preprocessing applied to one synthetic skin texture](docs/assets/preprocessing_comparison.png)
+
+CLAHE increases local luminance contrast, Retinex emphasizes reflectance-like
+detail while reducing slow illumination variation, and adaptive gamma adjusts
+luminance according to the image histogram. These are **preprocessing**
+operations, not segmentation masks. The figure is a visual demonstration only:
+it contains no Zenodo image and does not itself indicate which method performs
+best. Its source and regeneration instructions are documented in
+[`docs/assets/README.md`](docs/assets/README.md).
+
 ## Main result
 
 On the locked validation split, adaptive gamma correction produced the highest
@@ -210,16 +225,9 @@ See [Ethics and limitations](docs/ETHICS.md) and
 ## Citation
 
 If you use this code, cite both this repository (after replacing the placeholder
-metadata in [`CITATION.cff`](CITATION.cff)) and the original dataset created by Cedomir Vasic for his research titled "Dataset used to train a Convolutional Neural Network dedicated to skin pore detection and classification".
+metadata in [`CITATION.cff`](CITATION.cff)) and the original Zenodo dataset.
 Complete the [release checklist](docs/RELEASE_CHECKLIST.md) before the first
-public push. 
-
-This is Mr. Vasic's research: https://onlinelibrary.wiley.com/doi/10.1111/ajd.14200 
-
-## Dataset Link
-
-https://zenodo.org/records/8228942
-https://www.kaggle.com/datasets/sefasoysal/skin-pore-dataset
+public push.
 
 ## License
 
